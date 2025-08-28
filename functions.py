@@ -11,4 +11,5 @@ def multiply(a, b):
 
 
 def convert_fahrenheit_to_celsius(fahrenheit):
+    assert fahrenheit > -400
     return multiply(subtract(fahrenheit, 32), 5 / 9)
